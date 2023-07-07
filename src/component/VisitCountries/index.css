@@ -1,0 +1,34 @@
+.bg-container {
+  background-color: #161624;
+  min-height: 100vh;
+}
+.countries-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.country {
+  color: #f8fafc;
+  align-self: flex-start;
+  line-height: 2px;
+}
+.countries-list {
+  background-color: #334155;
+  border: 1px solid #f1f5f9;
+  border-radius: 10px;
+  width: 100%;
+  margin-left: 0px;
+  overflow-y: scroll;
+  height: 30vh;
+}
+.visited-countries {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.text {
+  align-self: center;
+  color: #f8fafc;
+}
