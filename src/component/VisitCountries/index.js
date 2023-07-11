@@ -142,7 +142,7 @@ class VisitCountries extends Component {
                 />
               ))
             ) : (
-              <p className="text">No Visited Countries</p>
+              <p className="text">No Countries Visited Yet</p>
             )}
           </ul>
         </div>
